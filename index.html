@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт Турист-PRO</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <!--Шапка сайта-->
+    <header>
+        <div class="wrapper">
+            <div class="content">
+                 <div class="logo">
+                    <a href="index.html">
+                        <img src="Media/image/logo.png" alt="Логотип компании">
+                    </a>
+                </div>
+                <nav>
+                    <a href="index.html#promo"> Акции </a>
+                    <a href="index.html#search"> Поиск </a>
+                    <a href="booking.html"> Управление бронированием </a>
+                </nav>
+             </div>
+        </div>
+    </header>
+
+<!--Блок Баннер-->
+    <section class="banner" style="background-image: url(./Media/image/banner.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; min-height: 40hv;">
+        <div class="wrapper">
+            <div class="content">
+                <div class="ytp">
+                    <h1>Турист-PRO</h1>
+                    <h2> Мы помежем вам посетить места для отличного отдыха </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!--Блок алгоритма-->
+    <section class="alg">
+        <div class="wrapper">
+            <div class="content">
+                <h1>Шесть шагов к мечте</h1>
+                <div class="steps">
+                    <div class="step">Выбери даты</div>
+                    <div class="step">Собери компанию</div>
+                    <div class="step">Выбери регион</div>
+                    <div class="step">Определи зоны</div>
+                    <div class="step">Дополнительные услуги</div>
+                    <div class="step">Оформи заказ</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!--Блок о компании-->
+    <section class="about">
+        <div class="wrapper">
+            <div class="content">
+                <h2>Наша цель-сделать любой подход удобным,комфортным и безопасным!</h2>
+            <h2>Исполнить мечты просто!</h2>
+             <div class="comment">
+                <img src="Media/image/comment_2.jpg" alt="" class="comment_foto">
+                <div class="comment_text">Спасибо большое за отдых,обратимся к вам еще!</div> 
+             </div>
+             <div class="comment">
+                <img src="Media/image/comment1.jpg" alt="" class="comment_foto">
+                <div class="comment_text">Спасибо большое за отдых,обратимся к вам еще!</div>
+             </div>
+             <div class="comment">
+                <img src="Media/image/comment_3.jpg" alt="" class="comment_foto">
+                <div class="comment_text">Спасибо большое за отдых,обратимся к вам еще!</div>
+             </div>
+                 </div>
+            </div> 
+        </div>
+    </section>
+ <!--Блок поиск-->
+
+    <section class="search">
+        <div class="wrapper">
+            <div class="content">
+                <form action="search.html">
+                <select name="region" id="region">
+                    <option value="region_0">Выберите регион</option>
+                    <option value="region_1">Якутия</option>
+                    <option value="region_2">Ркспублика Коми</option>
+                    <option value="region_3">Краснодарский край</option>
+                </select>
+                    <input type="date" placeholder="Начало похода">
+                    <input type="date" placeholder="Окончание похода">
+                    <input type="number" placeholder="Количество участников">
+                    <select name="level" id="level">
+                        <option value="level_0">Выберите уровень</option>
+                        <option value="level_1">Начальный</option>
+                        <option value="level_2">Средний</option>
+                        <option value="level_3">Продвинутый</option>
+                </select>
+                <input type="submit">
+                </form>
+             </div>
+        </div>
+    </section>
+ <!--Блок акции-->
+
+    <section class="promos" id="promos">
+         
+        <div class="wrapper">
+            <div class="content">
+                 <div class="promo">
+                    <img src="Media/image/promo_1.jpg" alt="фото_акции">
+                    <h2>Первая акция</h2>
+                    <div class="promo_text">
+                        <p>Регион: Якутия </p>
+                        <p>Маршрут: первый </p>
+                        <p>Сложность: сложная </p>
+                        <p>Даты: 21.11.26-21.12.26 </p>
+                    </div>
+                    <button>Подробнее....</button>
+                </div>
+                <div class="promo">
+                    <img src="Media/image/promo_2.jpg" alt="фото_акции">
+                    <h2>Вторая акция</h2>
+                    <div class="promo_text">
+                        <p>Регион: Карелия </p>
+                        <p>Маршрут: второй </p>
+                        <p>Сложность: средняя </p>
+                        <p>Даты: 01.12.25-29.02.26 </p>
+                </div>
+                    <button>Подробнее...</button>
+                </div>
+                <div class="promo">
+                    <img src="Media/image/promo_3.jpg" alt="фото_акции">
+                    <h2>Третья акция</h2>
+                    <div class="promo_text">
+                    <p>Регион: Коми</p>
+                    <p>маршрута: третий </p>
+                    <p>Сложность: средняя </p>
+                    <p>Даты: 21.02.26-29.03.26</p>
+                    </div>
+                    <button>Подробнее...</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!--Блок подписки-->  
+    <section class="sub">
+        <div class="wrapper">
+            <div class="content">
+                <h2>Подписаться на новости</h2>
+                  <input type="email">
+                  <button> Подписаться </button>
+            </div>
+        </div>
+    </section>
+
+<!--Подвал сайта-->
+<footer>
+    <div class="wrapper">
+        <div class="content">
+                <h2>8 (800) 555-33-10</h2>
+                <nav>
+                    <a href="#"> Home </a>
+                    <a href="#"> Login </a>
+                    <a href="#"> Sign up </a>
+                    <a href="#"> Contact </a>
+                    <a href="#"> News </a>
+                    <a href="#"> Return </a>
+                    <a href="#"> Feedback </a>
+                </nav>
+        </div> 
+    </div>
+</footer>
+</body>
+</html>
